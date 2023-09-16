@@ -3,16 +3,13 @@
     overflow-x: hidden;
 }
 body{
-    background-color:#F4F2DE;
+    background-color:#D4E2D4;
 }
 
 header{
     position: sticky;
     top: 0;
 }
-
-
-
  .nav {
     height: 32px;
     width: 100%;
@@ -21,46 +18,45 @@ header{
     justify-content: space-evenly; 
   
 }
-.aboutus{
-    border: 1px solid;
-    margin: 50px;
-    padding: 15px;
-    border-radius: 5px;
-    background-color:#E9B384 ;
-}
 .container1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: space-around;
+    gap: 40px;
 }
-.box{
-    height: 300px;
-    width: 200px;
-    background-color:#7C9D96 ;
+.card{
+    height: 200px;
+    width: 150px;
+    background-color:#7C9D96;
     border: 1px solid #7C9D96;
     border-radius: 5px;
-    /* margin: 60px; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 img{
     height: 100px;
-    width: 150px;
-   margin: 20px;
+    width: 100px;
+   margin: 10px;
    border-radius: 5px;
 }
-.linkbox{
-    height: 30px;
-    width: 60px;
-    background-color: #E9B384;
+h4{
+    font-size: smaller;
+}
+.container2{
+    border: 1px solid;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
-    border-radius: 8px;
-    margin: 10px;
-
+    margin: 70px;
+    padding: 15px;
+    flex-grow: wrap;
+    
 }
-.aboutus:hover{
-    background-color: #F4F2DE;
+.para{
+    border-right: 1px solid ;
+    margin: 10px;
+    padding: 40px;
+    font-size: larger;
 }

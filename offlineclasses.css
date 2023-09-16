@@ -3,7 +3,7 @@
     overflow-x: hidden;
 }
 body{
-    background-color:#A1CCD1;
+    background-color:#E9B384;
 }
 
 header{
@@ -22,13 +22,13 @@ header{
   
 }
 .container1{
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
 }
-.box{
-    height: 300px;
+.card{
+    height: 250px;
     width: 200px;
     background-color:#F4F2DE;
     border: 1px solid #F4F2DE;
@@ -37,7 +37,6 @@ header{
     flex-direction: column;
     align-items: center;
 }
-
 img{
     height: 100px;
     width: 150px;
@@ -45,17 +44,20 @@ img{
    border-radius: 5px;
 }
 .container2{
-   
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-}
-.classes{
     border: 1px solid;
-    width: 1000px;
-    height: 500px;
-    padding: 10px;
-    margin: 20px 0;
-    border-radius: 5px;
-    background-color:#E9B384;
+    border-radius: 4px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px 200px ;
+}
+td{
+    border: 1px solid;
+}
+@media (max-width:787px){
+    .container2{
+        width: 100%;
+        margin: 0px;
+    }
 }
