@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 body{
     background-color:#E9B384;
@@ -9,6 +8,7 @@ body{
 header{
     position: sticky;
     top: 0;
+    padding: 20px;
 }
 
 
@@ -16,7 +16,7 @@ header{
  .nav {
     height: 32px;
     width: 100%;
-    margin:20px;
+    /* margin:20px; */
     display: flex;
     justify-content: space-evenly; 
   

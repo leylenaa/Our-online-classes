@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* A bug was made because of the overflow hidden and sticky position,they donnt work together
+    by giving the background color and border finally found out that overflow was because of nav margin so I remored it and added padding to header */
+    /* overflow-x: hidden; */
+    /* background-color: rgba(127, 255, 212, 0.562);
+    border: 5px solid; */ 
 }
 body{
     background-color:#F4F2DE;
@@ -9,6 +13,7 @@ body{
 header{
     position: sticky;
     top: 0;
+    padding: 20px;
 }
 
 
@@ -16,7 +21,7 @@ header{
  .nav {
     height: 32px;
     width: 100%;
-    margin:20px;
+    /* margin:20px; */
     display: flex;
     justify-content: space-evenly; 
   
